@@ -100,16 +100,21 @@ html,body{
   max-width:700px;
 }
 
-/* ── TICKET STUB (vertical stack) ── */
-.stub{
+/* ── STUB WRAP (details + ticket, flush together) ── */
+.stub-wrap{
+  display:flex;flex-direction:column;
+  width:100%;
+  max-width:1088px;
+  margin-top:16px;
+}
+
+/* ── DETAILS BLOCK (date + location) ── */
+.details{
   position:relative;z-index:3;flex-shrink:0;
   display:flex;flex-direction:column;
   background:var(--stub);
   border-top:1px solid var(--hair);
-  border-bottom:1px solid var(--hair);
-  margin-top:16px;
   width:100%;
-  max-width:1088px;
 }
 .stub-seg{
   display:flex;align-items:center;gap:16px;
@@ -135,10 +140,27 @@ html,body{
   font-size:31px;letter-spacing:0.04em;color:var(--white);
   line-height:1.1;white-space:nowrap;
 }
-.stub-admit{gap:0;}
+
+/* ── TICKET STUB (registration) ── */
+.ticket{
+  position:relative;z-index:3;flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;
+  background:var(--lime);
+  width:100%;
+  max-width:1088px;
+  padding:22px 26px;
+  border-top:2px dashed rgba(36,26,58,0.4);
+}
+.ticket::before,
+.ticket::after{
+  content:'';position:absolute;top:-8px;width:16px;height:16px;border-radius:50%;
+  background:var(--bg3);
+}
+.ticket::before{left:-8px;}
+.ticket::after{right:-8px;}
 .admit-badge{
   font-family:'Bebas Neue Local',sans-serif;font-size:28px;
-  color:var(--lime);letter-spacing:0.12em;white-space:nowrap;
+  color:var(--bg3);letter-spacing:0.12em;white-space:nowrap;
 }
 
 /* ── CORNER MARKS ── */
@@ -188,16 +210,18 @@ html,body{
     <div class="headline">SUMMER 2O26<br><span class="accent">TECH SHOWCASE</span></div>
     <div class="tag-highlight">Portfolio Presentation by the Summer 2026 Cohort</div>
 
-    <div class="stub">
-      <div class="stub-seg">
-        <div class="stub-icon">&#9638;</div>
-        <div class="stub-main">THU, JULY 23RD 2026</div>
+    <div class="stub-wrap">
+      <div class="details">
+        <div class="stub-seg">
+          <div class="stub-icon">&#9638;</div>
+          <div class="stub-main">THU, JULY 23RD 2026</div>
+        </div>
+        <div class="stub-seg">
+          <div class="stub-icon">&#9672;</div>
+          <div class="stub-main">MICROSOFT, SOHO</div>
+        </div>
       </div>
-      <div class="stub-seg">
-        <div class="stub-icon">&#9672;</div>
-        <div class="stub-main">MICROSOFT, SOHO</div>
-      </div>
-      <div class="stub-seg stub-admit">
+      <div class="ticket">
         <div class="admit-badge">REGISTRATION REQUIRED</div>
       </div>
     </div>
