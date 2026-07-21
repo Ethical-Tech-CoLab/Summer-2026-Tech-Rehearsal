@@ -119,12 +119,12 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Space Mono',monosp
 /* ── SCREENSHOT PANEL (cohort slides) ── */
 .asset-panel{flex:1;display:flex;flex-direction:column;padding:16px 24px;background:var(--bg2);overflow:hidden;}
 .talk-title{font-family:'Bebas Neue',sans-serif;font-size:2.1rem;color:var(--lime);letter-spacing:0.03em;line-height:1.05;margin-bottom:8px;}
-.asset-desc{font-size:0.68rem;color:rgba(255,255,255,0.6);line-height:1.65;max-width:600px;margin-bottom:2px;}
+.asset-desc{font-size:0.68rem;color:rgba(255,255,255,0.6);line-height:1.65;margin-bottom:2px;}
 .tags{font-size:0.62rem;color:rgba(184,212,0,0.55);letter-spacing:0.08em;margin-bottom:14px;}
 .open-dash-btn{
   flex-shrink:0;background:var(--lime);color:var(--bg);
-  font-family:'Bebas Neue',sans-serif;font-size:0.78rem;letter-spacing:0.08em;
-  padding:8px 16px;border-radius:3px;text-decoration:none;text-transform:uppercase;
+  font-family:'Bebas Neue',sans-serif;font-size:0.66rem;letter-spacing:0.06em;
+  padding:6px 11px;border-radius:3px;text-decoration:none;text-transform:uppercase;
   white-space:nowrap;transition:opacity 0.2s;display:inline-block;
 }
 .open-dash-btn:hover{opacity:0.82;}
@@ -295,61 +295,9 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Space Mono',monosp
 
 
 <!-- ===================================================================
-     SLIDE 2 — AGENDA
+     SLIDE 2 — ABOUT THE LAB
      =================================================================== -->
-<div class="slide" id="slide-2" style="background:var(--bg2);">
-  <div class="hbar">
-    <div class="logo-row">
-      <img src="Public/etc-logo.png" alt="Ethical Tech CoLab logo" style="height:36px;width:auto;border-radius:4px;">
-      <div class="v-divider"></div>
-      <div class="hbar-tagline">Emerging Tech<br>Human Condition</div>
-    </div>
-    <div class="hbar-label">ETHICAL TECH COLAB</div>
-    <div class="season-badge">SUMMER '26</div>
-  </div>
-  <div class="sec-strip">EVENT AGENDA</div>
-
-  <div class="agenda-wrap">
-    <div class="agenda-item">
-      <div class="a-time">9:00 AM</div><div class="a-bar"></div>
-      <div><div class="a-title">DOORS OPEN &amp; REGISTRATION</div><div class="a-desc">Check-in, networking, light refreshments</div></div>
-    </div>
-    <div class="agenda-item">
-      <div class="a-time">9:30 AM</div><div class="a-bar hi"></div>
-      <div><div class="a-title">OPENING REMARKS — LIGHTNING TALK INTRO</div><div class="a-desc">Welcome by Founder — James Webb, Ethical Tech CoLab</div></div>
-    </div>
-    <div class="agenda-item">
-      <div class="a-time">10:00 AM</div><div class="a-bar"></div>
-      <div><div class="a-title">COHORT LIGHTNING TALKS — SESSION I</div><div class="a-desc">Aisha Okonkwo · Diego Reyes · Jordan Lee</div></div>
-    </div>
-    <div class="agenda-item">
-      <div class="a-time">11:30 AM</div><div class="a-bar"></div>
-      <div><div class="a-title">BREAK &amp; FACILITATED DISCUSSION</div><div class="a-desc">Audience Q&amp;A on Session I presentations</div></div>
-    </div>
-    <div class="agenda-item">
-      <div class="a-time">12:00 PM</div><div class="a-bar hi"></div>
-      <div><div class="a-title">LUNCH BREAK</div><div class="a-desc">Networking with speakers, faculty, and guests</div></div>
-    </div>
-    <div class="agenda-item">
-      <div class="a-time">1:00 PM</div><div class="a-bar"></div>
-      <div><div class="a-title">COHORT LIGHTNING TALKS — SESSION II</div><div class="a-desc">Priya Nair · Sam Chen · Maya Thompson</div></div>
-    </div>
-    <div class="agenda-item">
-      <div class="a-time">2:30 PM</div><div class="a-bar"></div>
-      <div><div class="a-title">FULL COHORT PANEL DISCUSSION</div><div class="a-desc">Cross-talk moderated by James Webb — open Q&amp;A</div></div>
-    </div>
-    <div class="agenda-item">
-      <div class="a-time">3:30 PM</div><div class="a-bar hi"></div>
-      <div><div class="a-title">CLOSING REMARKS &amp; NETWORKING</div><div class="a-desc">Next steps for the CoLab and Fall 2026 initiatives</div></div>
-    </div>
-  </div>
-</div>
-
-
-<!-- ===================================================================
-     SLIDE 3 — ABOUT THE LAB
-     =================================================================== -->
-<div class="slide" id="slide-3">
+<div class="slide" id="slide-2">
   <div class="hbar">
     <div class="logo-row">
       <img src="Public/etc-logo.png" alt="Ethical Tech CoLab logo" style="height:36px;width:auto;border-radius:4px;">
@@ -413,100 +361,9 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Space Mono',monosp
 
 
 <!-- ===================================================================
-     SLIDE 4 — COHORTS OVERVIEW
+     SLIDE 3 — LAB PROJECTS
      =================================================================== -->
-<div class="slide" id="slide-4" style="background:var(--bg3);position:relative;overflow:hidden;">
-  <!-- Subtle wave bg -->
-  <div class="wave-layer" style="opacity:0.25;">
-    <svg viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid slice" fill="none">
-      <defs><path id="sw" d="M -150,480 C 100,280 300,580 520,380 S 780,120 1050,300"/></defs>
-      <use href="#sw" stroke="#b8d400" stroke-width="1.2" transform="translate(0,0)"/>
-      <use href="#sw" stroke="#b8d400" stroke-width="1.2" transform="translate(0,-10)"/>
-      <use href="#sw" stroke="#b8d400" stroke-width="1.2" transform="translate(0,-20)"/>
-      <use href="#sw" stroke="#b8d400" stroke-width="1.2" transform="translate(0,-30)"/>
-      <use href="#sw" stroke="#b8d400" stroke-width="1.2" transform="translate(0,-40)"/>
-      <use href="#sw" stroke="#b8d400" stroke-width="1.2" transform="translate(0,-50)"/>
-      <use href="#sw" stroke="#b8d400" stroke-width="1.2" transform="translate(0,-60)"/>
-    </svg>
-  </div>
-
-  <div class="hbar" style="background:rgba(22,13,28,0.85);">
-    <div class="logo-row">
-      <img src="Public/etc-logo.png" alt="Ethical Tech CoLab logo" style="height:36px;width:auto;border-radius:4px;">
-      <div class="v-divider"></div>
-      <div class="hbar-tagline">Emerging Tech<br>Human Condition</div>
-    </div>
-    <div class="hbar-label">ETHICAL TECH COLAB</div>
-    <div class="season-badge">SUMMER '26</div>
-  </div>
-  <div class="sec-strip">MEET THE SUMMER 2026 COHORT</div>
-
-  <div style="flex:1;display:flex;flex-direction:column;padding:14px 22px;overflow:hidden;position:relative;z-index:2;gap:8px;">
-    <div style="font-size:0.65rem;letter-spacing:0.18em;color:var(--lime);text-transform:uppercase;">Summer 2026 Cohort</div>
-    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;">
-      <div class="cohort-card">
-        <div class="c-num">01</div>
-        <div class="c-avatar"><img src="Public/india.jpg" alt="India Clarke"></div>
-        <div class="c-name">INDIA CLARKE</div>
-      </div>
-      <div class="cohort-card">
-        <div class="c-num">02</div>
-        <div class="c-avatar"><img src="Public/christine.jpg" alt="Christine Lumen"></div>
-        <div class="c-name">CHRISTINE LUMEN</div>
-      </div>
-      <div class="cohort-card">
-        <div class="c-num">03</div>
-        <div class="c-avatar"><img src="Public/melanie.jpg" alt="Melanie MacKew"></div>
-        <div class="c-name">MELANIE MACKEW</div>
-      </div>
-      <div class="cohort-card">
-        <div class="c-num">04</div>
-        <div class="c-avatar"><img src="Public/carolina.jpg" alt="Carolina de Almeida Pernambuco Moron"></div>
-        <div class="c-name">CAROLINA MORON</div>
-      </div>
-      <div class="cohort-card">
-        <div class="c-num">05</div>
-        <div class="c-avatar"><img src="Public/alana.jpg" alt="Alana Robertson"></div>
-        <div class="c-name">ALANA ROBERTSON</div>
-      </div>
-      <div class="cohort-card">
-        <div class="c-num">06</div>
-        <div class="c-avatar"><img src="Public/yago.jpg" alt="Yago Rocha"></div>
-        <div class="c-name">YAGO ROCHA</div>
-      </div>
-      <div class="cohort-card">
-        <div class="c-num">07</div>
-        <div class="c-avatar"><img src="Public/carlos.jpg" alt="Carlos D. Ruiz"></div>
-        <div class="c-name">CARLOS D. RUIZ</div>
-      </div>
-    </div>
-
-    <div style="font-size:0.65rem;letter-spacing:0.18em;color:var(--lime);text-transform:uppercase;margin-top:4px;">Alum &amp; Collaborators</div>
-    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;">
-      <div class="cohort-card">
-        <div class="c-num">01</div>
-        <div class="c-avatar"><img src="Public/alex.jpg" alt="Alex Du"></div>
-        <div class="c-name">ALEX DU</div>
-      </div>
-      <div class="cohort-card">
-        <div class="c-num">02</div>
-        <div class="c-avatar"><img src="Public/hannah.jpg" alt="Hannah Zhao"></div>
-        <div class="c-name">HANNAH ZHAO</div>
-      </div>
-      <div class="cohort-card">
-        <div class="c-num">03</div>
-        <div class="c-avatar" style="background:linear-gradient(145deg,#2a1a3a,#5a2d7a);"><span class="ci">MG</span></div>
-        <div class="c-name">MAAHI GUPTA</div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- ===================================================================
-     SLIDE 5 — LAB PROJECTS
-     =================================================================== -->
-<div class="slide" id="slide-5" style="background:var(--bg3);position:relative;overflow:hidden;">
+<div class="slide" id="slide-3" style="background:var(--bg3);position:relative;overflow:hidden;">
   <div class="wave-layer" style="opacity:0.25;">
     <svg viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid slice" fill="none">
       <defs><path id="pw" d="M -150,480 C 100,280 300,580 520,380 S 780,120 1050,300"/></defs>
@@ -531,58 +388,27 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Space Mono',monosp
   </div>
   <div class="sec-strip">TO BE PRESENTED TODAY:</div>
 
-  <div style="flex:1;display:flex;flex-direction:column;padding:16px 26px;overflow:hidden;position:relative;z-index:2;gap:10px;">
-    <div style="font-size:0.65rem;letter-spacing:0.18em;color:var(--lime);text-transform:uppercase;">Summer 2026 In-House Projects</div>
-    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;">
-      <div class="cohort-card" style="cursor:default;">
-        <div class="c-num">01</div>
-        <div class="c-avatar" style="border-radius:6px;background:linear-gradient(145deg,#1e0a3c,#5b21b6);"><span class="ci">P1</span></div>
-        <div class="c-name">HOW CAN AI INFORM EVACUATION DECISIONS?</div>
-        <div class="c-talk">Turning fragmented crisis signals into decisions, so responders and residents can act before information gaps cost lives.</div>
-      </div>
-      <div class="cohort-card" style="cursor:default;">
-        <div class="c-num">02</div>
-        <div class="c-avatar" style="border-radius:6px;background:linear-gradient(145deg,#1a3a1a,#2d7a2d);"><span class="ci">P2</span></div>
-        <div class="c-name">HOW CAN TECHNOLOGY SUPPORT THE ETHICAL RETURN OF CULTURAL ARTIFACTS?</div>
-        <div class="c-talk">Giving institutions, source communities, and researchers a shared, verifiable record of an artifact's life across borders.</div>
-      </div>
-      <div class="cohort-card" style="cursor:default;">
-        <div class="c-num">03</div>
-        <div class="c-avatar" style="border-radius:6px;background:linear-gradient(145deg,#1a1a3a,#2d2d7a);"><span class="ci">P3</span></div>
-        <div class="c-name">HOW CAN AI HELP PRACTITIONERS REHEARSE HIGH-STAKES DIPLOMACY?</div>
-        <div class="c-talk">An AI-mediated environment where negotiators rehearse high-stakes diplomacy with culturally grounded agents.</div>
-      </div>
+  <div style="flex:1;display:flex;flex-direction:column;justify-content:center;padding:16px 26px;overflow:hidden;position:relative;z-index:2;gap:16px;">
+    <div class="cohort-card" style="cursor:default;flex-direction:row;align-items:center;justify-content:flex-start;gap:20px;padding:20px 26px;">
+      <div class="c-num" style="position:static;opacity:1;font-size:2.2rem;">01</div>
+      <div class="c-name" style="font-size:1.5rem;text-align:left;color:var(--white);">3 SUMMER 2026 IN-HOUSE PROJECTS</div>
     </div>
-
-    <div style="font-size:0.65rem;letter-spacing:0.18em;color:var(--lime);text-transform:uppercase;margin-top:6px;">Lab-Adjacent Projects</div>
-    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;">
-      <div class="cohort-card" style="cursor:default;">
-        <div class="c-num">01</div>
-        <div class="c-avatar" style="border-radius:6px;background:linear-gradient(145deg,#1a2a3a,#2d5a7a);"><span class="ci">A1</span></div>
-        <div class="c-name">ADJACENT PROJECT ONE</div>
-        <div class="c-talk">Placeholder description of lab-adjacent project one</div>
-      </div>
-      <div class="cohort-card" style="cursor:default;">
-        <div class="c-num">02</div>
-        <div class="c-avatar" style="border-radius:6px;background:linear-gradient(145deg,#2a1a3a,#5a2d7a);"><span class="ci">A2</span></div>
-        <div class="c-name">ADJACENT PROJECT TWO</div>
-        <div class="c-talk">Placeholder description of lab-adjacent project two</div>
-      </div>
-      <div class="cohort-card" style="cursor:default;">
-        <div class="c-num">03</div>
-        <div class="c-avatar" style="border-radius:6px;background:linear-gradient(145deg,#3a1a1a,#7a2d2d);"><span class="ci">A3</span></div>
-        <div class="c-name">ADJACENT PROJECT THREE</div>
-        <div class="c-talk">Placeholder description of lab-adjacent project three</div>
-      </div>
+    <div class="cohort-card" style="cursor:default;flex-direction:row;align-items:center;justify-content:flex-start;gap:20px;padding:20px 26px;">
+      <div class="c-num" style="position:static;opacity:1;font-size:2.2rem;">02</div>
+      <div class="c-name" style="font-size:1.5rem;text-align:left;color:var(--white);">LAB-ADJACENT CGA CAPSTONE PROJECTS</div>
+    </div>
+    <div class="cohort-card" style="cursor:default;flex-direction:row;align-items:center;justify-content:flex-start;gap:20px;padding:20px 26px;">
+      <div class="c-num" style="position:static;opacity:1;font-size:2.2rem;">03</div>
+      <div class="c-name" style="font-size:1.5rem;text-align:left;color:var(--white);">PROJECT CORNERS &amp; DISCUSSIONS</div>
     </div>
   </div>
 </div>
 
 
 <!-- ===================================================================
-     SLIDE 6 — IN-HOUSE PROJECT 01: AI-INFORMED EVACUATION DECISIONS
+     SLIDE 4 — IN-HOUSE PROJECT 01: AI-INFORMED EVACUATION DECISIONS
      =================================================================== -->
-<div class="slide" id="slide-6" style="background:var(--bg2);">
+<div class="slide" id="slide-4" style="background:var(--bg2);">
   <div class="hbar">
     <div class="logo-row">
       <img src="Public/etc-logo.png" alt="Ethical Tech CoLab logo" style="height:36px;width:auto;border-radius:4px;">
@@ -612,18 +438,78 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Space Mono',monosp
         <div class="contrib-chip"><div class="contrib-avatar"><img src="Public/carlos.jpg" alt="Carlos Ruiz"></div><span class="contrib-name">Carlos Ruiz</span></div>
       </div>
 
-      <div class="section-label-sm">Faculty Advisor</div>
+      <div class="section-label-sm">PhD Candidate Advisor & Visiting Fellow</div>
       <div class="contrib-list">
         <div class="contrib-chip"><div class="contrib-avatar"><img src="Public/teresa.jpg" alt="Teresa Cantero"></div><span class="contrib-name">Teresa Cantero</span></div>
       </div>
     </div>
 
     <div class="asset-panel">
-      <div class="asset-zone">
-        <div class="asset-placeholder">
-          <div class="asset-icon"></div>
-          <div class="asset-hint">Project Screenshot / Dashboard</div>
-          <div class="asset-sub">Replace this area with project assets</div>
+      <div class="asset-zone" style="border-style:solid;background:#fff;">
+        <iframe src="https://exodus-ruddy.vercel.app" title="Exodus — Civilian Evacuation Risk Platform" style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ===================================================================
+     SLIDE 5 — IN-HOUSE PROJECT 02: ETHICAL RETURN OF CULTURAL ARTIFACTS
+     =================================================================== -->
+<div class="slide" id="slide-5" style="background:var(--bg2);">
+  <div class="hbar">
+    <div class="logo-row">
+      <img src="Public/etc-logo.png" alt="Ethical Tech CoLab logo" style="height:36px;width:auto;border-radius:4px;">
+      <div class="v-divider"></div>
+      <div class="hbar-tagline">Emerging Tech<br>Human Condition</div>
+    </div>
+    <div class="hbar-label">ETHICAL TECH COLAB</div>
+    <div class="season-badge">SUMMER '26</div>
+  </div>
+  <div class="sec-strip"><span class="num">02</span> CULTURAL HERITAGE & PROVENANCE</div>
+
+  <div class="project-hero">
+    <div class="project-title-lg">HOW CAN TECHNOLOGY SUPPORT THE ETHICAL RETURN OF CULTURAL ARTIFACTS?</div>
+    <div class="project-desc">Giving institutions, source communities, and researchers a shared, verifiable record of an artifact's life across borders.</div>
+  </div>
+
+  <div class="profile-body">
+    <div class="project-detail-left">
+      <div class="section-label-sm">Contributors</div>
+      <div class="contrib-list">
+        <div class="contrib-chip"><div class="contrib-avatar"><img src="Public/christine.jpg" alt="Christine Lumen"></div><span class="contrib-name">Christine Lumen</span></div>
+        <div class="contrib-chip"><div class="contrib-avatar"><img src="Public/melanie.jpg" alt="Melanie MacKew"></div><span class="contrib-name">Melanie MacKew</span></div>
+        <div class="contrib-chip"><div class="contrib-avatar"><img src="Public/carolina.jpg" alt="Carolina Moron"></div><span class="contrib-name">Carolina Moron</span></div>
+        <div class="contrib-chip"><div class="contrib-avatar"><img src="Public/yago.jpg" alt="Yago Rocha"></div><span class="contrib-name">Yago Rocha</span></div>
+        <div class="contrib-chip"><div class="contrib-avatar"><img src="Public/hannah.jpg" alt="Hannah Zhao"></div><span class="contrib-name">Hannah Zhao</span></div>
+      </div>
+
+      <div class="section-label-sm">Advisor</div>
+      <div class="contrib-list">
+        <div class="contrib-chip"><div class="contrib-avatar"><img src="Public/susan.jpg" alt="Susan de Menil"></div><span class="contrib-name">Susan de Menil</span></div>
+      </div>
+    </div>
+
+    <div class="asset-panel">
+      <div class="info-card">
+        <div class="info-card-head">CONCEPT OVERVIEW</div>
+        <div class="info-card-body">
+          <ul>
+            <li>A verifiable chain of custody for cultural artifacts — tracing origin, ownership, and looting/repatriation risk from public record to museum floor</li>
+            <li>Pairs public-facing engagement — a stamp-collecting "art passport" for visitors — with backend provenance intelligence that reconstructs an object's ownership history</li>
+            <li>Extends into an autonomous agent that issues a cryptographically signed, tamper-evident Provenance Passport as a portable, verifiable credential</li>
+          </ul>
+        </div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-head">METHODOLOGY</div>
+        <div class="info-card-body">
+          <ul>
+            <li>Grounds every provenance claim in an authoritative-source allowlist (The Met, Getty, UNESCO, Interpol, Art Loss Register, ICOM) via Tavily search — no claim is produced without a citation</li>
+            <li>Computes a transparent, rules-based confidence score — not AI-generated — that docks points for custody gaps, unverified sources, and valuation anomalies</li>
+            <li>Signs the resulting Provenance Passport as a JSON-LD Verifiable Credential, independently checkable via ecrecover; premium due-diligence lookups are paid for with x402 USDC micropayments</li>
+            <li>Complements the research pipeline with a public-facing "art passport" app — QR-code stamp collection across venues, in English, French, and Italian</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -632,191 +518,47 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Space Mono',monosp
 
 
 <!-- ===================================================================
-     SLIDE 7 — COHORT 06: INDIA CLARKE
+     SLIDE 6 — IN-HOUSE PROJECT 03: REHEARSING HIGH-STAKES DIPLOMACY
+     =================================================================== -->
+<div class="slide" id="slide-6" style="background:var(--bg2);">
+  <div class="hbar">
+    <div class="logo-row">
+      <img src="Public/etc-logo.png" alt="Ethical Tech CoLab logo" style="height:36px;width:auto;border-radius:4px;">
+      <div class="v-divider"></div>
+      <div class="hbar-tagline">Emerging Tech<br>Human Condition</div>
+    </div>
+    <div class="hbar-label">ETHICAL TECH COLAB</div>
+    <div class="season-badge">SUMMER '26</div>
+  </div>
+  <div class="sec-strip"><span class="num">03</span> HIGH-STAKES DIPLOMACY</div>
+
+  <div class="project-hero">
+    <div class="project-title-lg">HOW CAN AI HELP PRACTITIONERS REHEARSE HIGH-STAKES DIPLOMACY?</div>
+    <div class="project-desc">An interactive simulation of multi-party diplomatic negotiation — human and AI delegations role-play state actors through live geopolitical crises (Arctic governance, Central Asian water rights, Cyprus reunification, the South China Sea, and more), each session producing a full transcript, tactic analysis, and convener report.</div>
+  </div>
+
+  <div class="profile-body">
+    <div class="project-detail-left">
+      <div class="section-label-sm">Contributor</div>
+      <div class="contrib-list">
+        <div class="contrib-chip"><div class="contrib-avatar"><img src="Public/yorke.jpg" alt="Yorke E Rhodes III" style="object-position:top;"></div><span class="contrib-name">Yorke E Rhodes III</span></div>
+        <div class="contrib-chip"><div class="contrib-avatar" style="border-radius:4px;background:#fff;"><img src="Public/etc-logo.png" alt="Ethical Tech CoLab" style="object-fit:contain;"></div><span class="contrib-name">Ethical Tech CoLab</span></div>
+      </div>
+    </div>
+
+    <div class="asset-panel">
+      <div class="asset-zone" style="border-style:solid;background:#fff;">
+        <iframe src="https://ethical-tech-colab.github.io/diplomatic-simulator/" title="Diplomatic Simulator" style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ===================================================================
+     SLIDE 7 — COHORT 07: YAGO ROCHA
      =================================================================== -->
 <div class="slide" id="slide-7" style="background:var(--bg2);">
-  <div class="hbar">
-    <div class="logo-row">
-      <img src="Public/etc-logo.png" alt="Ethical Tech CoLab logo" style="height:36px;width:auto;border-radius:4px;">
-      <div class="v-divider"></div>
-      <div class="hbar-tagline">Emerging Tech<br>Human Condition</div>
-    </div>
-    <div class="hbar-label">ETHICAL TECH COLAB</div>
-    <div class="season-badge">SUMMER '26</div>
-  </div>
-  <div class="sec-strip">EVACUATION DECISIONS - CONTRIBUTION</div>
-
-  <div class="profile-body">
-    <div class="profile-left narrow">
-      <div class="avatar-box">
-        <img class="avatar-img" src="Public/india.jpg" alt="India Clarke" style="transform:scale(1.3) translateX(5%);">
-      </div>
-      <div class="name-badge">INDIA CLARKE</div>
-      <div class="cred-text">MS IN GLOBAL AFFAIRS<br>GLOBAL ECONOMY · DATA ANALYSIS</div>
-      <hr class="dash-hr">
-      <div class="cred-hashtags">#ESGAnalysis #FinTech #DataAnalysis #ExtremismPrevention</div>
-      <hr class="dash-hr">
-      <div class="affil-line">NYU SPS · ETHICAL TECH COLAB</div>
-    </div>
-
-    <div class="asset-panel">
-      <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:16px;">
-        <div>
-          <div class="talk-title">Evacuation Routing Simulator</div>
-          <div class="asset-desc">An interactive simulator modeling how routing and assignment choices shape who reaches safety, with shareable scenario state and a built-in explainer walkthrough.</div>
-        </div>
-        <a class="open-dash-btn" href="https://ethical-tech-colab.github.io/India-EvacSimulation/?seed=42&amp;n=8&amp;m=3&amp;u=30" target="_blank" rel="noopener">Open Dashboard ↗</a>
-      </div>
-      <div class="tags">#EvacuationRouting &nbsp; #ResourceAssignment &nbsp; #ScenarioSharing &nbsp; #DecisionSupport</div>
-      <div class="asset-zone" style="border-style:solid;background:#fff;">
-        <iframe src="https://ethical-tech-colab.github.io/India-EvacSimulation/?seed=42&amp;n=8&amp;m=3&amp;u=30" title="Evacuation Readiness &amp; Uncertainty Simulator" style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- ===================================================================
-     SLIDE 8 — COHORT 02: CHRISTINE LUMEN
-     =================================================================== -->
-<div class="slide" id="slide-8" style="background:var(--bg2);">
-  <div class="hbar">
-    <div class="logo-row">
-      <img src="Public/etc-logo.png" alt="Ethical Tech CoLab logo" style="height:36px;width:auto;border-radius:4px;">
-      <div class="v-divider"></div>
-      <div class="hbar-tagline">Emerging Tech<br>Human Condition</div>
-    </div>
-    <div class="hbar-label">ETHICAL TECH COLAB</div>
-    <div class="season-badge">SUMMER '26</div>
-  </div>
-  <div class="sec-strip">EVACUATION DECISIONS - CONTRIBUTION</div>
-
-  <div class="profile-body">
-    <div class="profile-left narrow">
-      <div class="avatar-box">
-        <img class="avatar-img" src="Public/christine.jpg" alt="Christine Lumen">
-      </div>
-      <div class="name-badge">CHRISTINE LUMEN</div>
-      <div class="cred-text">MS, MANAGEMENT OF TECHNOLOGY<br>NYU TANDON SCHOOL OF ENGINEERING</div>
-      <hr class="dash-hr">
-      <div class="cred-text">AI GOVERNANCE &amp; NLP RESEARCH</div>
-      <hr class="dash-hr">
-      <div class="cred-hashtags">#AIGovernance #NLP #EarlyWarningSystems #ForesightHub</div>
-      <hr class="dash-hr">
-      <div class="affil-line">NYU SPS · ETHICAL TECH COLAB</div>
-    </div>
-
-    <div class="asset-panel">
-      <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:16px;">
-        <div>
-          <div class="talk-title">Mariupol 2022: Corridor Severity Model</div>
-          <div class="asset-desc">A retrospective severity model for the Mariupol evacuation corridors (Mar–May 2022), scoring corridor severity, feasibility, and destination viability from conflict, weather, and demographic data — anchored in international humanitarian law obligations.</div>
-        </div>
-        <a class="open-dash-btn" href="https://ethical-tech-colab.github.io/mariupol-evacuation-model/" target="_blank" rel="noopener">Open Dashboard ↗</a>
-      </div>
-      <div class="tags">#HumanitarianCorridors &nbsp; #ConflictSeverity &nbsp; #IHLCompliance &nbsp; #CrisisModeling</div>
-      <div class="asset-zone" style="border-style:solid;background:#fff;">
-        <iframe src="https://ethical-tech-colab.github.io/mariupol-evacuation-model/" title="Mariupol 2022 — Corridor Severity Model" style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- ===================================================================
-     SLIDE 9 — COHORT 04: MELANIE MACKEW
-     =================================================================== -->
-<div class="slide" id="slide-9" style="background:var(--bg2);">
-  <div class="hbar">
-    <div class="logo-row">
-      <img src="Public/etc-logo.png" alt="Ethical Tech CoLab logo" style="height:36px;width:auto;border-radius:4px;">
-      <div class="v-divider"></div>
-      <div class="hbar-tagline">Emerging Tech<br>Human Condition</div>
-    </div>
-    <div class="hbar-label">ETHICAL TECH COLAB</div>
-    <div class="season-badge">SUMMER '26</div>
-  </div>
-  <div class="sec-strip">EVACUATION DECISIONS - CONTRIBUTION</div>
-
-  <div class="profile-body">
-    <div class="profile-left narrow">
-      <div class="avatar-box">
-        <img class="avatar-img" src="Public/melanie.jpg" alt="Melanie MacKew">
-      </div>
-      <div class="name-badge">MELANIE MACKEW</div>
-      <div class="cred-text">MS IN GLOBAL AFFAIRS<br>FORCED MIGRATION &amp; REFUGEE INTEGRATION</div>
-      <hr class="dash-hr">
-      <div class="cred-hashtags">#ForcedMigration #RefugeeIntegration #CommunityEngagement #HumanitarianAid</div>
-      <hr class="dash-hr">
-      <div class="affil-line">NYU SPS · ETHICAL TECH COLAB</div>
-    </div>
-
-    <div class="asset-panel">
-      <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:16px;">
-        <div>
-          <div class="talk-title">Evacuation Behavior Simulator</div>
-          <div class="asset-desc">An agent-based simulation of community evacuation behavior, modeling how individual decision lifecycles — from risk perception to departure — shape collective evacuation outcomes.</div>
-        </div>
-        <a class="open-dash-btn" href="https://ethical-tech-colab.github.io/Evac-Sim-Melanie/" target="_blank" rel="noopener">Open Dashboard ↗</a>
-      </div>
-      <div class="tags">#AgentBasedModeling &nbsp; #EvacuationBehavior &nbsp; #DecisionLifecycle &nbsp; #CommunityResponse</div>
-      <div class="asset-zone" style="border-style:solid;background:#fff;">
-        <iframe src="https://ethical-tech-colab.github.io/Evac-Sim-Melanie/" title="Evacuation Behavior Simulator" style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- ===================================================================
-     SLIDE 10 — COHORT 01: CAROLINA MORON
-     =================================================================== -->
-<div class="slide" id="slide-10" style="background:var(--bg2);">
-  <div class="hbar">
-    <div class="logo-row">
-      <img src="Public/etc-logo.png" alt="Ethical Tech CoLab logo" style="height:36px;width:auto;border-radius:4px;">
-      <div class="v-divider"></div>
-      <div class="hbar-tagline">Emerging Tech<br>Human Condition</div>
-    </div>
-    <div class="hbar-label">ETHICAL TECH COLAB</div>
-    <div class="season-badge">SUMMER '26</div>
-  </div>
-  <div class="sec-strip">EVACUATION DECISIONS - CONTRIBUTION</div>
-
-  <div class="profile-body">
-    <div class="profile-left narrow">
-      <div class="avatar-box">
-        <img class="avatar-img" src="Public/carolina.jpg" alt="Carolina de Almeida Pernambuco Moron">
-      </div>
-      <div class="name-badge">CAROLINA DE ALMEIDA<br>PERNAMBUCO MORON</div>
-      <div class="cred-text">MS IN GLOBAL AFFAIRS<br>GLOBAL ECONOMY · DATA ANALYSIS</div>
-      <hr class="dash-hr">
-      <div class="cred-hashtags">#DataGovernance #EarlyWarningSystems #UNPartnerships #BiasMitigation</div>
-      <hr class="dash-hr">
-      <div class="affil-line">NYU SPS · ETHICAL TECH COLAB</div>
-    </div>
-
-    <div class="asset-panel">
-      <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:16px;">
-        <div>
-          <div class="talk-title">Evacuation Inform Index (EII)</div>
-          <div class="asset-desc">A composite risk index comparing the danger of evacuating versus staying across 104 live crises, synthesizing real-time conflict severity, infrastructure access, and demographic vulnerability into a single decision-support score.</div>
-        </div>
-        <a class="open-dash-btn" href="https://ethical-tech-colab.github.io/evacuation-inform-index-carolina/" target="_blank" rel="noopener">Open Dashboard ↗</a>
-      </div>
-      <div class="tags">#EvacuationDecisionSupport &nbsp; #RiskModeling &nbsp; #InformSeverity &nbsp; #LiveCrisisData</div>
-      <div class="asset-zone" style="border-style:solid;background:#fff;">
-        <iframe src="https://ethical-tech-colab.github.io/evacuation-inform-index-carolina/" title="Evacuation Inform Index (EII)" style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- ===================================================================
-     SLIDE 11 — COHORT 07: YAGO ROCHA
-     =================================================================== -->
-<div class="slide" id="slide-11" style="background:var(--bg2);">
   <div class="hbar">
     <div class="logo-row">
       <img src="Public/etc-logo.png" alt="Ethical Tech CoLab logo" style="height:36px;width:auto;border-radius:4px;">
@@ -843,12 +585,10 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Space Mono',monosp
 
     <div class="asset-panel">
       <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:16px;">
-        <div>
-          <div class="talk-title">ERCF — Evacuation Risk Classification Framework</div>
-          <div class="asset-desc">A decision-support tool estimating evacuation logistics costs and mortality risk across seven dimensions of conflict exposure, weighing act-now-vs-wait tradeoffs with real-time cost and terrain data.</div>
-        </div>
+        <div class="talk-title">ERCF — Evacuation Risk Classification Framework</div>
         <a class="open-dash-btn" href="https://ercf-production.up.railway.app" target="_blank" rel="noopener">Open Dashboard ↗</a>
       </div>
+      <div class="asset-desc">A decision-support tool estimating evacuation logistics costs and mortality risk across seven dimensions of conflict exposure, weighing act-now-vs-wait tradeoffs with real-time cost and terrain data.</div>
       <div class="tags">#EvacuationLogistics &nbsp; #RiskClassification &nbsp; #CostModeling &nbsp; #ActNowVsWait</div>
       <div class="asset-zone" style="border-style:solid;background:#fff;">
         <iframe src="https://ercf-production.up.railway.app" title="ERCF — Evacuation Risk Classification Framework" style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
@@ -859,9 +599,357 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Space Mono',monosp
 
 
 <!-- ===================================================================
-     SLIDE 12 — COHORT 05: CARLOS D. RUIZ
+     SLIDE 8 — COHORT: YAGO ROCHA (CULTURAL HERITAGE & PROVENANCE)
+     =================================================================== -->
+<div class="slide" id="slide-8" style="background:var(--bg2);">
+  <div class="hbar">
+    <div class="logo-row">
+      <img src="Public/etc-logo.png" alt="Ethical Tech CoLab logo" style="height:36px;width:auto;border-radius:4px;">
+      <div class="v-divider"></div>
+      <div class="hbar-tagline">Emerging Tech<br>Human Condition</div>
+    </div>
+    <div class="hbar-label">ETHICAL TECH COLAB</div>
+    <div class="season-badge">SUMMER '26</div>
+  </div>
+  <div class="sec-strip">CULTURAL HERITAGE &amp; PROVENANCE - CONTRIBUTION</div>
+
+  <div class="profile-body">
+    <div class="profile-left narrow">
+      <div class="avatar-box">
+        <img class="avatar-img" src="Public/yago.jpg" alt="Yago Rocha">
+      </div>
+      <div class="name-badge">YAGO ROCHA</div>
+      <div class="cred-text">MS IN GLOBAL AFFAIRS<br>INT'L DEVELOPMENT &amp; HUMANITARIAN ASSISTANCE</div>
+      <hr class="dash-hr">
+      <div class="cred-hashtags">#RefugeeEconomicInclusion #HumanitarianInnovation #DataForDevelopment #UNDP</div>
+      <hr class="dash-hr">
+      <div class="affil-line">NYU SPS · ETHICAL TECH COLAB</div>
+    </div>
+
+    <div class="asset-panel">
+      <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:16px;">
+        <div class="talk-title">Arts &amp; Artifacts — Provenance Intelligence</div>
+        <a class="open-dash-btn" href="https://ethical-tech-colab.github.io/provenance-search/" target="_blank" rel="noopener">Open Dashboard ↗</a>
+      </div>
+      <div class="asset-desc">Looks up an artwork's ownership history across free public sources — The Met, Art Institute of Chicago, MoMA, Wikidata, Europeana, and Tavily-grounded web search — and emits a provenance passport with a confidence score computed by a fixed, transparent algorithm rather than by the AI.</div>
+      <div class="tags">#ProvenanceIntelligence &nbsp; #TavilyGrounding &nbsp; #ConfidenceScoring &nbsp; #MuseumAPIs</div>
+      <div class="asset-zone" style="border-style:solid;background:#fff;">
+        <iframe src="https://ethical-tech-colab.github.io/provenance-search/" title="Arts &amp; Artifacts — Provenance Intelligence" style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ===================================================================
+     SLIDE 9 — COHORT 02: CHRISTINE LUMEN
+     =================================================================== -->
+<div class="slide" id="slide-9" style="background:var(--bg2);">
+  <div class="hbar">
+    <div class="logo-row">
+      <img src="Public/etc-logo.png" alt="Ethical Tech CoLab logo" style="height:36px;width:auto;border-radius:4px;">
+      <div class="v-divider"></div>
+      <div class="hbar-tagline">Emerging Tech<br>Human Condition</div>
+    </div>
+    <div class="hbar-label">ETHICAL TECH COLAB</div>
+    <div class="season-badge">SUMMER '26</div>
+  </div>
+  <div class="sec-strip">EVACUATION DECISIONS - CONTRIBUTION</div>
+
+  <div class="profile-body">
+    <div class="profile-left narrow">
+      <div class="avatar-box">
+        <img class="avatar-img" src="Public/christine.jpg" alt="Christine Lumen">
+      </div>
+      <div class="name-badge">CHRISTINE LUMEN</div>
+      <div class="cred-text">MS in MANAGEMENT OF TECHNOLOGY<br>NYU TANDON SCHOOL OF ENGINEERING</div>
+      <hr class="dash-hr">
+      <div class="cred-text">AI GOVERNANCE &amp; NLP RESEARCH</div>
+      <hr class="dash-hr">
+      <div class="cred-hashtags">#AIGovernance #NLP #EarlyWarningSystems #ForesightHub</div>
+      <hr class="dash-hr">
+      <div class="affil-line">NYU SPS · ETHICAL TECH COLAB</div>
+    </div>
+
+    <div class="asset-panel">
+      <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:16px;">
+        <div class="talk-title">Mariupol 2022: Corridor Severity Model</div>
+        <a class="open-dash-btn" href="https://ethical-tech-colab.github.io/mariupol-evacuation-model/" target="_blank" rel="noopener">Open Dashboard ↗</a>
+      </div>
+      <div class="asset-desc">A retrospective severity model for the Mariupol evacuation corridors (Mar–May 2022), scoring corridor severity, feasibility, and destination viability from conflict, weather, and demographic data — anchored in international humanitarian law obligations.</div>
+      <div class="tags">#HumanitarianCorridors &nbsp; #ConflictSeverity &nbsp; #IHLCompliance &nbsp; #CrisisModeling</div>
+      <div class="asset-zone" style="border-style:solid;background:#fff;">
+        <iframe src="https://ethical-tech-colab.github.io/mariupol-evacuation-model/" title="Mariupol 2022 — Corridor Severity Model" style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ===================================================================
+     SLIDE 10 — COHORT: CHRISTINE LUMEN (CULTURAL HERITAGE & PROVENANCE)
+     =================================================================== -->
+<div class="slide" id="slide-10" style="background:var(--bg2);">
+  <div class="hbar">
+    <div class="logo-row">
+      <img src="Public/etc-logo.png" alt="Ethical Tech CoLab logo" style="height:36px;width:auto;border-radius:4px;">
+      <div class="v-divider"></div>
+      <div class="hbar-tagline">Emerging Tech<br>Human Condition</div>
+    </div>
+    <div class="hbar-label">ETHICAL TECH COLAB</div>
+    <div class="season-badge">SUMMER '26</div>
+  </div>
+  <div class="sec-strip">CULTURAL HERITAGE &amp; PROVENANCE - CONTRIBUTION</div>
+
+  <div class="profile-body">
+    <div class="profile-left narrow">
+      <div class="avatar-box">
+        <img class="avatar-img" src="Public/christine.jpg" alt="Christine Lumen">
+      </div>
+      <div class="name-badge">CHRISTINE LUMEN</div>
+      <div class="cred-text">MS, MANAGEMENT OF TECHNOLOGY<br>NYU TANDON SCHOOL OF ENGINEERING</div>
+      <hr class="dash-hr">
+      <div class="cred-text">AI GOVERNANCE &amp; NLP RESEARCH</div>
+      <hr class="dash-hr">
+      <div class="cred-hashtags">#AIGovernance #NLP #EarlyWarningSystems #ForesightHub</div>
+      <hr class="dash-hr">
+      <div class="affil-line">NYU SPS · ETHICAL TECH COLAB</div>
+    </div>
+
+    <div class="asset-panel">
+      <div class="talk-title">(To Be Added)</div>
+      <div class="tags">(to be added)</div>
+      <div class="asset-zone">
+        <div class="asset-placeholder">
+          <div class="asset-icon"></div>
+          <div class="asset-hint">Project Screenshot / Dashboard</div>
+          <div class="asset-sub">Replace this area with presenter's project assets</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ===================================================================
+     SLIDE 11 — COHORT 04: MELANIE MACKEW
+     =================================================================== -->
+<div class="slide" id="slide-11" style="background:var(--bg2);">
+  <div class="hbar">
+    <div class="logo-row">
+      <img src="Public/etc-logo.png" alt="Ethical Tech CoLab logo" style="height:36px;width:auto;border-radius:4px;">
+      <div class="v-divider"></div>
+      <div class="hbar-tagline">Emerging Tech<br>Human Condition</div>
+    </div>
+    <div class="hbar-label">ETHICAL TECH COLAB</div>
+    <div class="season-badge">SUMMER '26</div>
+  </div>
+  <div class="sec-strip">EVACUATION DECISIONS - CONTRIBUTION</div>
+
+  <div class="profile-body">
+    <div class="profile-left narrow">
+      <div class="avatar-box">
+        <img class="avatar-img" src="Public/melanie.jpg" alt="Melanie MacKew">
+      </div>
+      <div class="name-badge">MELANIE MACKEW</div>
+      <div class="cred-text">MS IN GLOBAL AFFAIRS</div>
+      <hr class="dash-hr">
+      <div class="cred-hashtags">#ForcedMigration #RefugeeIntegration #CommunityEngagement #HumanitarianAid</div>
+      <hr class="dash-hr">
+      <div class="affil-line">NYU SPS · ETHICAL TECH COLAB</div>
+    </div>
+
+    <div class="asset-panel">
+      <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:16px;">
+        <div class="talk-title">Evacuation Behavior Simulator</div>
+        <a class="open-dash-btn" href="https://ethical-tech-colab.github.io/Evac-Sim-Melanie/" target="_blank" rel="noopener">Open Dashboard ↗</a>
+      </div>
+      <div class="asset-desc">An agent-based simulation of community evacuation behavior, modeling how individual decision lifecycles — from risk perception to departure — shape collective evacuation outcomes.</div>
+      <div class="tags">#AgentBasedModeling &nbsp; #EvacuationBehavior &nbsp; #DecisionLifecycle &nbsp; #CommunityResponse</div>
+      <div class="asset-zone" style="border-style:solid;background:#fff;">
+        <iframe src="https://ethical-tech-colab.github.io/Evac-Sim-Melanie/" title="Evacuation Behavior Simulator" style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ===================================================================
+     SLIDE 12 — COHORT: MELANIE MACKEW (CULTURAL HERITAGE & PROVENANCE)
      =================================================================== -->
 <div class="slide" id="slide-12" style="background:var(--bg2);">
+  <div class="hbar">
+    <div class="logo-row">
+      <img src="Public/etc-logo.png" alt="Ethical Tech CoLab logo" style="height:36px;width:auto;border-radius:4px;">
+      <div class="v-divider"></div>
+      <div class="hbar-tagline">Emerging Tech<br>Human Condition</div>
+    </div>
+    <div class="hbar-label">ETHICAL TECH COLAB</div>
+    <div class="season-badge">SUMMER '26</div>
+  </div>
+  <div class="sec-strip">CULTURAL HERITAGE &amp; PROVENANCE - CONTRIBUTION</div>
+
+  <div class="profile-body">
+    <div class="profile-left narrow">
+      <div class="avatar-box">
+        <img class="avatar-img" src="Public/melanie.jpg" alt="Melanie MacKew">
+      </div>
+      <div class="name-badge">MELANIE MACKEW</div>
+      <div class="cred-text">MS IN GLOBAL AFFAIRS</div>
+      <hr class="dash-hr">
+      <div class="cred-hashtags">#ForcedMigration #RefugeeIntegration #CommunityEngagement #HumanitarianAid</div>
+      <hr class="dash-hr">
+      <div class="affil-line">NYU SPS · ETHICAL TECH COLAB</div>
+    </div>
+
+    <div class="asset-panel">
+      <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:16px;">
+        <div class="talk-title">VANGO — Art Passport</div>
+        <a class="open-dash-btn" href="https://ethical-tech-colab.github.io/VANGO/" target="_blank" rel="noopener">Open Dashboard ↗</a>
+      </div>
+      <div class="asset-desc">A mobile-style digital passport that gamifies engagement with cultural artifacts — visitors scan or enter a code at a participating installation to collect a stamp, building a personal record of the artworks and heritage sites they've encountered.</div>
+      <div class="tags">#PublicEngagement &nbsp; #DigitalPassport &nbsp; #CulturalHeritage &nbsp; #Multilingual</div>
+      <div class="asset-zone" style="border-style:solid;background:#fff;">
+        <iframe src="https://ethical-tech-colab.github.io/VANGO/" title="VANGO — Art Passport" style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ===================================================================
+     SLIDE 13 — COHORT 01: CAROLINA MORON
+     =================================================================== -->
+<div class="slide" id="slide-13" style="background:var(--bg2);">
+  <div class="hbar">
+    <div class="logo-row">
+      <img src="Public/etc-logo.png" alt="Ethical Tech CoLab logo" style="height:36px;width:auto;border-radius:4px;">
+      <div class="v-divider"></div>
+      <div class="hbar-tagline">Emerging Tech<br>Human Condition</div>
+    </div>
+    <div class="hbar-label">ETHICAL TECH COLAB</div>
+    <div class="season-badge">SUMMER '26</div>
+  </div>
+  <div class="sec-strip">EVACUATION DECISIONS - CONTRIBUTION</div>
+
+  <div class="profile-body">
+    <div class="profile-left narrow">
+      <div class="avatar-box">
+        <img class="avatar-img" src="Public/carolina.jpg" alt="Carolina de Almeida Pernambuco Moron">
+      </div>
+      <div class="name-badge">CAROLINA DE ALMEIDA<br>PERNAMBUCO MORON</div>
+      <div class="cred-text">MS IN GLOBAL AFFAIRS<br>GLOBAL ECONOMY<br>DATA ANALYSIS</div>
+      <hr class="dash-hr">
+      <div class="cred-hashtags">#DataGovernance #EarlyWarningSystems #UNPartnerships #BiasMitigation</div>
+      <hr class="dash-hr">
+      <div class="affil-line">NYU SPS · ETHICAL TECH COLAB</div>
+    </div>
+
+    <div class="asset-panel">
+      <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:16px;">
+        <div class="talk-title">Evacuation Inform Index (EII)</div>
+        <a class="open-dash-btn" href="https://ethical-tech-colab.github.io/evacuation-inform-index-carolina/" target="_blank" rel="noopener">Open Dashboard ↗</a>
+      </div>
+      <div class="asset-desc">A composite risk index comparing the danger of evacuating versus staying across 104 live crises, synthesizing real-time conflict severity, infrastructure access, and demographic vulnerability into a single decision-support score.</div>
+      <div class="tags">#EvacuationDecisionSupport &nbsp; #RiskModeling &nbsp; #InformSeverity &nbsp; #LiveCrisisData</div>
+      <div class="asset-zone" style="border-style:solid;background:#fff;">
+        <iframe src="https://ethical-tech-colab.github.io/evacuation-inform-index-carolina/" title="Evacuation Inform Index (EII)" style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ===================================================================
+     SLIDE 14 — COHORT: CAROLINA MORON (CULTURAL HERITAGE & PROVENANCE)
+     =================================================================== -->
+<div class="slide" id="slide-14" style="background:var(--bg2);">
+  <div class="hbar">
+    <div class="logo-row">
+      <img src="Public/etc-logo.png" alt="Ethical Tech CoLab logo" style="height:36px;width:auto;border-radius:4px;">
+      <div class="v-divider"></div>
+      <div class="hbar-tagline">Emerging Tech<br>Human Condition</div>
+    </div>
+    <div class="hbar-label">ETHICAL TECH COLAB</div>
+    <div class="season-badge">SUMMER '26</div>
+  </div>
+  <div class="sec-strip">CULTURAL HERITAGE &amp; PROVENANCE - CONTRIBUTION</div>
+
+  <div class="profile-body">
+    <div class="profile-left narrow">
+      <div class="avatar-box">
+        <img class="avatar-img" src="Public/carolina.jpg" alt="Carolina de Almeida Pernambuco Moron">
+      </div>
+      <div class="name-badge">CAROLINA DE ALMEIDA<br>PERNAMBUCO MORON</div>
+      <div class="cred-text">MS IN GLOBAL AFFAIRS<br>GLOBAL ECONOMY<br>DATA ANALYSIS</div>
+      <hr class="dash-hr">
+      <div class="cred-hashtags">#DataGovernance #EarlyWarningSystems #UNPartnerships #BiasMitigation</div>
+      <hr class="dash-hr">
+      <div class="affil-line">NYU SPS · ETHICAL TECH COLAB</div>
+    </div>
+
+    <div class="asset-panel">
+      <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:16px;">
+        <div class="talk-title">Digital Provenance Passport</div>
+        <a class="open-dash-btn" href="https://ethical-tech-colab.github.io/arts-provenance-agent/" target="_blank" rel="noopener">Open Dashboard ↗</a>
+      </div>
+      <div class="asset-desc">An x402-native agent that traces an artwork's provenance, flags looting, repatriation, and valuation risk, and issues a cryptographically signed, tamper-evident Passport — grounded in Tavily search over an authoritative-source allowlist, with premium due-diligence lookups settled as real USDC micropayments on Base Sepolia.</div>
+      <div class="tags">#x402Agent &nbsp; #VerifiableCredential &nbsp; #RiskFlagging &nbsp; #BaseSepolia</div>
+      <div class="asset-zone" style="border-style:solid;background:#fff;">
+        <iframe src="https://ethical-tech-colab.github.io/arts-provenance-agent/" title="Digital Provenance Passport" style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ===================================================================
+     SLIDE 15 — COHORT 06: INDIA CLARKE
+     =================================================================== -->
+<div class="slide" id="slide-15" style="background:var(--bg2);">
+  <div class="hbar">
+    <div class="logo-row">
+      <img src="Public/etc-logo.png" alt="Ethical Tech CoLab logo" style="height:36px;width:auto;border-radius:4px;">
+      <div class="v-divider"></div>
+      <div class="hbar-tagline">Emerging Tech<br>Human Condition</div>
+    </div>
+    <div class="hbar-label">ETHICAL TECH COLAB</div>
+    <div class="season-badge">SUMMER '26</div>
+  </div>
+  <div class="sec-strip">EVACUATION DECISIONS - CONTRIBUTION</div>
+
+  <div class="profile-body">
+    <div class="profile-left narrow">
+      <div class="avatar-box">
+        <img class="avatar-img" src="Public/india.jpg" alt="India Clarke" style="transform:scale(1.3) translateX(5%);">
+      </div>
+      <div class="name-badge">INDIA CLARKE</div>
+      <div class="cred-text">MS IN GLOBAL AFFAIRS<br>GLOBAL ECONOMY<br>DATA ANALYSIS</div>
+      <hr class="dash-hr">
+      <div class="cred-hashtags">#ESGAnalysis #FinTech #DataAnalysis #ExtremismPrevention</div>
+      <hr class="dash-hr">
+      <div class="affil-line">NYU SPS · ETHICAL TECH COLAB</div>
+    </div>
+
+    <div class="asset-panel">
+      <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:16px;">
+        <div class="talk-title">Evacuation Routing Simulator</div>
+        <a class="open-dash-btn" href="https://ethical-tech-colab.github.io/India-EvacSimulation/?seed=42&amp;n=8&amp;m=3&amp;u=30" target="_blank" rel="noopener">Open Dashboard ↗</a>
+      </div>
+      <div class="asset-desc">An interactive simulator modeling how routing and assignment choices shape who reaches safety, using Monte Carlo simulation to stress-test outcomes across randomized scenarios, with shareable scenario state and a built-in explainer walkthrough.</div>
+      <div class="tags">#EvacuationRouting &nbsp; #ResourceAssignment &nbsp; #ScenarioSharing &nbsp; #DecisionSupport &nbsp; #MonteCarloSimulation</div>
+      <div class="asset-zone" style="border-style:solid;background:#fff;">
+        <iframe src="https://ethical-tech-colab.github.io/India-EvacSimulation/?seed=42&amp;n=8&amp;m=3&amp;u=30" title="Evacuation Readiness &amp; Uncertainty Simulator" style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ===================================================================
+     SLIDE 16 — COHORT 05: CARLOS D. RUIZ
+     =================================================================== -->
+<div class="slide" id="slide-16" style="background:var(--bg2);">
   <div class="hbar">
     <div class="logo-row">
       <img src="Public/etc-logo.png" alt="Ethical Tech CoLab logo" style="height:36px;width:auto;border-radius:4px;">
@@ -879,7 +967,7 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Space Mono',monosp
         <img class="avatar-img" src="Public/carlos.jpg" alt="Carlos D. Ruiz">
       </div>
       <div class="name-badge">CARLOS D. RUIZ</div>
-      <div class="cred-text">MS IN GLOBAL AFFAIRS<br>GLOBAL ECONOMY · USAF VETERAN</div>
+      <div class="cred-text">MS IN GLOBAL AFFAIRS<br>GLOBAL ECONOMY<br>USAF VETERAN</div>
       <hr class="dash-hr">
       <div class="cred-hashtags">#GlobalEconomy #EmergingTech #Veteran #Policy</div>
       <hr class="dash-hr">
@@ -888,12 +976,10 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Space Mono',monosp
 
     <div class="asset-panel">
       <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:16px;">
-        <div>
-          <div class="talk-title">Exodus — Civilian Evacuation Risk Platform</div>
-          <div class="asset-desc">A unified platform combining three evacuation-risk frameworks — crisis mapping, cost classification, and anticipation scoring — into one workflow for locating, assessing, and planning around civilian evacuation risk.</div>
-        </div>
+        <div class="talk-title">Exodus — Civilian Evacuation Risk Platform</div>
         <a class="open-dash-btn" href="https://exodus-ruddy.vercel.app" target="_blank" rel="noopener">Open Dashboard ↗</a>
       </div>
+      <div class="asset-desc">A unified platform combining three evacuation-risk frameworks — crisis mapping, cost classification, and anticipation scoring — into one workflow for locating, assessing, and planning around civilian evacuation risk.</div>
       <div class="tags">#CivilianProtection &nbsp; #EvacuationPlanning &nbsp; #RiskAssessment &nbsp; #CrisisMapping</div>
       <div class="asset-zone" style="border-style:solid;background:#fff;">
         <iframe src="https://exodus-ruddy.vercel.app" title="Exodus — Civilian Evacuation Risk Platform" style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
@@ -904,51 +990,9 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Space Mono',monosp
 
 
 <!-- ===================================================================
-     SLIDE 13 — IN-HOUSE PROJECT 02: ETHICAL RETURN OF CULTURAL ARTIFACTS
+     SLIDE 17 — COHORT: HANNAH ZHAO (CULTURAL HERITAGE & PROVENANCE)
      =================================================================== -->
-<div class="slide" id="slide-13" style="background:var(--bg2);">
-  <div class="hbar">
-    <div class="logo-row">
-      <img src="Public/etc-logo.png" alt="Ethical Tech CoLab logo" style="height:36px;width:auto;border-radius:4px;">
-      <div class="v-divider"></div>
-      <div class="hbar-tagline">Emerging Tech<br>Human Condition</div>
-    </div>
-    <div class="hbar-label">ETHICAL TECH COLAB</div>
-    <div class="season-badge">SUMMER '26</div>
-  </div>
-  <div class="sec-strip"><span class="num">02</span> CULTURAL HERITAGE & PROVENANCE</div>
-
-  <div class="project-hero">
-    <div class="project-title-lg">HOW CAN TECHNOLOGY SUPPORT THE ETHICAL RETURN OF CULTURAL ARTIFACTS?</div>
-    <div class="project-desc">Giving institutions, source communities, and researchers a shared, verifiable record of an artifact's life across borders.</div>
-  </div>
-
-  <div class="profile-body">
-    <div class="project-detail-left">
-      <div class="section-label-sm">Contributors</div>
-      <div class="contrib-list">
-        <div class="contrib-chip"><div class="contrib-avatar"><img src="Public/hannah.jpg" alt="Hannah Zhao"></div><span class="contrib-name">Hannah Zhao</span></div>
-        <div class="contrib-chip"><div class="contrib-avatar"><img src="Public/melanie.jpg" alt="Melanie MacKew"></div><span class="contrib-name">Melanie MacKew</span></div>
-      </div>
-    </div>
-
-    <div class="asset-panel">
-      <div class="asset-zone">
-        <div class="asset-placeholder">
-          <div class="asset-icon"></div>
-          <div class="asset-hint">Project Screenshot / Dashboard</div>
-          <div class="asset-sub">Replace this area with project assets</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- ===================================================================
-     SLIDE 14 — COHORT: HANNAH ZHAO (CULTURAL HERITAGE & PROVENANCE)
-     =================================================================== -->
-<div class="slide" id="slide-14" style="background:var(--bg2);">
+<div class="slide" id="slide-17" style="background:var(--bg2);">
   <div class="hbar">
     <div class="logo-row">
       <img src="Public/etc-logo.png" alt="Ethical Tech CoLab logo" style="height:36px;width:auto;border-radius:4px;">
@@ -968,6 +1012,152 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Space Mono',monosp
       <div class="name-badge">HANNAH ZHAO</div>
       <div class="cred-text">(TO BE ADDED)<br>3D CREATIVE DESIGNER</div>
       <hr class="dash-hr">
+      <div class="cred-hashtags">#3DDesign #VirtualGallery #hopeOS #AABC</div>
+      <hr class="dash-hr">
+      <div class="affil-line">NYU SPS · ETHICAL TECH COLAB</div>
+    </div>
+
+    <div class="asset-panel">
+      <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:16px;">
+        <div class="talk-title">AABC Bura Ceramics — Virtual Gallery</div>
+        <a class="open-dash-btn" href="https://h0p3.io/world/aabcart_2_2" target="_blank" rel="noopener">Open Dashboard ↗</a>
+      </div>
+      <div class="asset-desc">A 3D interactive virtual gallery, built in hopeOS, exhibiting research panels on the Bura-Asinda-Sikka funerary terracotta of the Niger River valley (c. 3rd–13th century CE) — anchored to a Met Museum open-access grave marker, with guided curation tours, free-roam exploration, and an in-world "ask the world" AI agent.</div>
+      <div class="tags">#VirtualGallery &nbsp; #hopeOS &nbsp; #AABC &nbsp; #CulturalHeritage &nbsp; #3DExhibit</div>
+      <div class="asset-zone" style="border-style:solid;background:#000;">
+        <iframe src="https://h0p3.io/world/aabcart_2_2" title="AABC Bura Ceramics — Virtual Gallery" style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ===================================================================
+     SLIDE 18 — DIVIDER: LAB PROJECTS -> INDIVIDUAL CAPSTONES
+     =================================================================== -->
+<div class="slide" id="slide-18" style="background:var(--bg3);position:relative;overflow:hidden;">
+  <div class="wave-layer" style="opacity:0.25;">
+    <svg viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid slice" fill="none">
+      <defs><path id="pw2" d="M -150,480 C 100,280 300,580 520,380 S 780,120 1050,300"/></defs>
+      <use href="#pw2" stroke="#b8d400" stroke-width="1.2" transform="translate(0,0)"/>
+      <use href="#pw2" stroke="#b8d400" stroke-width="1.2" transform="translate(0,-10)"/>
+      <use href="#pw2" stroke="#b8d400" stroke-width="1.2" transform="translate(0,-20)"/>
+      <use href="#pw2" stroke="#b8d400" stroke-width="1.2" transform="translate(0,-30)"/>
+      <use href="#pw2" stroke="#b8d400" stroke-width="1.2" transform="translate(0,-40)"/>
+      <use href="#pw2" stroke="#b8d400" stroke-width="1.2" transform="translate(0,-50)"/>
+      <use href="#pw2" stroke="#b8d400" stroke-width="1.2" transform="translate(0,-60)"/>
+    </svg>
+  </div>
+
+  <div class="hbar" style="background:rgba(22,13,28,0.85);">
+    <div class="logo-row">
+      <img src="Public/etc-logo.png" alt="Ethical Tech CoLab logo" style="height:36px;width:auto;border-radius:4px;">
+      <div class="v-divider"></div>
+      <div class="hbar-tagline">Emerging Tech<br>Human Condition</div>
+    </div>
+    <div class="hbar-label">ETHICAL TECH COLAB</div>
+    <div class="season-badge">SUMMER '26</div>
+  </div>
+  <div class="sec-strip">LAB-ADJACENT CGA CAPSTONES</div>
+
+  <div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:16px 26px;position:relative;z-index:2;gap:22px;">
+    <div style="text-align:center;">
+      <div style="font-size:0.65rem;letter-spacing:0.18em;color:var(--lime);text-transform:uppercase;margin-bottom:8px;">That wraps the Lab Projects</div>
+      <div style="font-family:'Bebas Neue',sans-serif;font-size:2.6rem;letter-spacing:0.04em;color:var(--white);">INDIVIDUAL CAPSTONES</div>
+      <div style="font-size:0.68rem;color:rgba(255,255,255,0.5);letter-spacing:0.05em;margin-top:6px;">Collaborations with CoLab, presented by three individual CGA student/alum</div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;max-width:720px;width:100%;">
+      <div class="cohort-card" style="cursor:default;">
+        <div class="c-avatar"><img src="Public/alex.jpg" alt="Alex Du"></div>
+        <div class="c-name">ALEX DU</div>
+        <div class="c-talk" style="color:var(--white);">SUMMER 2026</div>
+        <hr style="border:none;border-top:1px dashed rgba(184,212,0,0.2);width:60%;margin:3px 0;">
+        <div class="c-talk" style="color:var(--lime);">ETHICAL TECH COLAB<br>SPRING 2025 COHORT</div>
+      </div>
+      <div class="cohort-card" style="cursor:default;">
+        <div class="c-avatar"><img src="Public/maahi.jpeg" alt="Maahi Gupta"></div>
+        <div class="c-name">MAAHI GUPTA</div>
+        <div class="c-talk" style="color:var(--white);">SPRING 2026</div>
+      </div>
+      <div class="cohort-card" style="cursor:default;">
+        <div class="c-avatar"><img src="Public/amanda.jpg" alt="Amanda Lindsay"></div>
+        <div class="c-name">AMANDA LINDSAY</div>
+        <div class="c-talk" style="color:var(--white);">SPRING 2026</div>
+        <hr style="border:none;border-top:1px dashed rgba(184,212,0,0.2);width:60%;margin:3px 0;">
+        <div class="c-talk" style="color:var(--lime);">ETHICAL TECH COLAB<br>FALL 2025 COHORT</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ===================================================================
+     SLIDE 19 — COHORT: AMANDA LINDSAY (INDIVIDUAL CAPSTONE)
+     =================================================================== -->
+<div class="slide" id="slide-19" style="background:var(--bg2);">
+  <div class="hbar">
+    <div class="logo-row">
+      <img src="Public/etc-logo.png" alt="Ethical Tech CoLab logo" style="height:36px;width:auto;border-radius:4px;">
+      <div class="v-divider"></div>
+      <div class="hbar-tagline">Emerging Tech<br>Human Condition</div>
+    </div>
+    <div class="hbar-label">ETHICAL TECH COLAB</div>
+    <div class="season-badge">SUMMER '26</div>
+  </div>
+  <div class="sec-strip">INDIVIDUAL CAPSTONE - COLLABORATION WITH COLAB</div>
+
+  <div class="profile-body">
+    <div class="profile-left narrow">
+      <div class="avatar-box">
+        <img class="avatar-img" src="Public/amanda.jpg" alt="Amanda Lindsay">
+      </div>
+      <div class="name-badge">AMANDA LINDSAY</div>
+      <div class="cred-text">(TO BE ADDED)<br>TO BE ADDED</div>
+      <hr class="dash-hr">
+      <div class="cred-hashtags">(to be added)</div>
+      <hr class="dash-hr">
+      <div class="affil-line">NYU SPS · ETHICAL TECH COLAB</div>
+    </div>
+
+    <div class="asset-panel">
+      <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:16px;">
+        <div class="talk-title">Forced Labor Structural Risk Index</div>
+        <a class="open-dash-btn" href="https://aml1045.github.io/forced-labor-structural-risk-index/pages/explore.html" target="_blank" rel="noopener">Open Dashboard ↗</a>
+      </div>
+      <div class="asset-desc">An interactive map tool showing how national-level risk aggregation hides where vulnerability actually concentrates — combining a 184-country structural-risk score with subnational analysis across ~1,450 regions built from census microdata and disaster-location data, weighting precarity at 70% and shock exposure at 30%, plus remittance-flow and spatial-clustering (LISA) layers.</div>
+      <div class="tags">#StructuralRisk &nbsp; #ForcedLabor &nbsp; #SubnationalAnalysis &nbsp; #MigrationPressure &nbsp; #SpatialClustering</div>
+      <div class="asset-zone" style="border-style:solid;background:#fff;">
+        <iframe src="https://aml1045.github.io/forced-labor-structural-risk-index/pages/explore.html" title="Forced Labor Structural Risk Index" style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ===================================================================
+     SLIDE 20 — COHORT: MAAHI GUPTA (INDIVIDUAL CAPSTONE)
+     =================================================================== -->
+<div class="slide" id="slide-20" style="background:var(--bg2);">
+  <div class="hbar">
+    <div class="logo-row">
+      <img src="Public/etc-logo.png" alt="Ethical Tech CoLab logo" style="height:36px;width:auto;border-radius:4px;">
+      <div class="v-divider"></div>
+      <div class="hbar-tagline">Emerging Tech<br>Human Condition</div>
+    </div>
+    <div class="hbar-label">ETHICAL TECH COLAB</div>
+    <div class="season-badge">SUMMER '26</div>
+  </div>
+  <div class="sec-strip">INDIVIDUAL CAPSTONE - COLLABORATION WITH COLAB</div>
+
+  <div class="profile-body">
+    <div class="profile-left narrow">
+      <div class="avatar-box">
+        <img class="avatar-img" src="Public/maahi.jpeg" alt="Maahi Gupta">
+      </div>
+      <div class="name-badge">MAAHI GUPTA</div>
+      <div class="cred-text">MS in Global Affairs<br>ALUM</div>
+      <hr class="dash-hr">
       <div class="cred-hashtags">(to be added)</div>
       <hr class="dash-hr">
       <div class="affil-line">NYU SPS · ETHICAL TECH COLAB</div>
@@ -989,93 +1179,9 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Space Mono',monosp
 
 
 <!-- ===================================================================
-     SLIDE 15 — COHORT: MELANIE MACKEW (CULTURAL HERITAGE & PROVENANCE)
+     SLIDE 21 — COHORT: ALEX DU (INDIVIDUAL CAPSTONE)
      =================================================================== -->
-<div class="slide" id="slide-15" style="background:var(--bg2);">
-  <div class="hbar">
-    <div class="logo-row">
-      <img src="Public/etc-logo.png" alt="Ethical Tech CoLab logo" style="height:36px;width:auto;border-radius:4px;">
-      <div class="v-divider"></div>
-      <div class="hbar-tagline">Emerging Tech<br>Human Condition</div>
-    </div>
-    <div class="hbar-label">ETHICAL TECH COLAB</div>
-    <div class="season-badge">SUMMER '26</div>
-  </div>
-  <div class="sec-strip">CULTURAL HERITAGE &amp; PROVENANCE - CONTRIBUTION</div>
-
-  <div class="profile-body">
-    <div class="profile-left narrow">
-      <div class="avatar-box">
-        <img class="avatar-img" src="Public/melanie.jpg" alt="Melanie MacKew">
-      </div>
-      <div class="name-badge">MELANIE MACKEW</div>
-      <div class="cred-text">MS IN GLOBAL AFFAIRS<br>FORCED MIGRATION &amp; REFUGEE INTEGRATION</div>
-      <hr class="dash-hr">
-      <div class="cred-hashtags">#ForcedMigration #RefugeeIntegration #CommunityEngagement #HumanitarianAid</div>
-      <hr class="dash-hr">
-      <div class="affil-line">NYU SPS · ETHICAL TECH COLAB</div>
-    </div>
-
-    <div class="asset-panel">
-      <div class="talk-title">(To Be Added)</div>
-      <div class="tags">(to be added)</div>
-      <div class="asset-zone">
-        <div class="asset-placeholder">
-          <div class="asset-icon"></div>
-          <div class="asset-hint">Project Screenshot / Dashboard</div>
-          <div class="asset-sub">Replace this area with presenter's project assets</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- ===================================================================
-     SLIDE 16 — IN-HOUSE PROJECT 03: REHEARSING HIGH-STAKES DIPLOMACY
-     =================================================================== -->
-<div class="slide" id="slide-16" style="background:var(--bg2);">
-  <div class="hbar">
-    <div class="logo-row">
-      <img src="Public/etc-logo.png" alt="Ethical Tech CoLab logo" style="height:36px;width:auto;border-radius:4px;">
-      <div class="v-divider"></div>
-      <div class="hbar-tagline">Emerging Tech<br>Human Condition</div>
-    </div>
-    <div class="hbar-label">ETHICAL TECH COLAB</div>
-    <div class="season-badge">SUMMER '26</div>
-  </div>
-  <div class="sec-strip"><span class="num">03</span> HIGH-STAKES DIPLOMACY</div>
-
-  <div class="project-hero">
-    <div class="project-title-lg">HOW CAN AI HELP PRACTITIONERS REHEARSE HIGH-STAKES DIPLOMACY?</div>
-    <div class="project-desc">An AI-mediated environment where negotiators rehearse high-stakes diplomacy with culturally grounded agents.</div>
-  </div>
-
-  <div class="profile-body">
-    <div class="project-detail-left">
-      <div class="section-label-sm">Main Contributor</div>
-      <div class="contrib-list">
-        <div class="contrib-chip"><div class="contrib-avatar"><img src="Public/yorke.jpg" alt="Yorke E Rhodes III" style="object-position:top;"></div><span class="contrib-name">Yorke E Rhodes III</span></div>
-      </div>
-    </div>
-
-    <div class="asset-panel">
-      <div class="asset-zone">
-        <div class="asset-placeholder">
-          <div class="asset-icon"></div>
-          <div class="asset-hint">Project Screenshot / Dashboard</div>
-          <div class="asset-sub">Replace this area with project assets</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- ===================================================================
-     SLIDE 17 — COHORT: ALEX DU (INDIVIDUAL CAPSTONE)
-     =================================================================== -->
-<div class="slide" id="slide-17" style="background:var(--bg2);">
+<div class="slide" id="slide-21" style="background:var(--bg2);">
   <div class="hbar">
     <div class="logo-row">
       <img src="Public/etc-logo.png" alt="Ethical Tech CoLab logo" style="height:36px;width:auto;border-radius:4px;">
@@ -1093,50 +1199,7 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Space Mono',monosp
         <img class="avatar-img" src="Public/alex.jpg" alt="Alex Du">
       </div>
       <div class="name-badge">ALEX DU</div>
-      <div class="cred-text">(TO BE ADDED)<br>MARKETING &amp; COMMUNITY LEAD</div>
-      <hr class="dash-hr">
-      <div class="cred-hashtags">(to be added)</div>
-      <hr class="dash-hr">
-      <div class="affil-line">NYU SPS · ETHICAL TECH COLAB</div>
-    </div>
-
-    <div class="asset-panel">
-      <div class="talk-title">(To Be Added)</div>
-      <div class="tags">(to be added)</div>
-      <div class="asset-zone">
-        <div class="asset-placeholder">
-          <div class="asset-icon"></div>
-          <div class="asset-hint">Project Screenshot / Dashboard</div>
-          <div class="asset-sub">Replace this area with presenter's project assets</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- ===================================================================
-     SLIDE 18 — COHORT: MAAHI GUPTA (INDIVIDUAL CAPSTONE)
-     =================================================================== -->
-<div class="slide" id="slide-18" style="background:var(--bg2);">
-  <div class="hbar">
-    <div class="logo-row">
-      <img src="Public/etc-logo.png" alt="Ethical Tech CoLab logo" style="height:36px;width:auto;border-radius:4px;">
-      <div class="v-divider"></div>
-      <div class="hbar-tagline">Emerging Tech<br>Human Condition</div>
-    </div>
-    <div class="hbar-label">ETHICAL TECH COLAB</div>
-    <div class="season-badge">SUMMER '26</div>
-  </div>
-  <div class="sec-strip">INDIVIDUAL CAPSTONE - COLLABORATION WITH COLAB</div>
-
-  <div class="profile-body">
-    <div class="profile-left narrow">
-      <div class="avatar-box" style="background:linear-gradient(145deg,#2a1a3a,#5a2d7a);">
-        <span class="avatar-initials">MG</span>
-      </div>
-      <div class="name-badge">MAAHI GUPTA</div>
-      <div class="cred-text">(TO BE ADDED)<br>ALUM &amp; COLLABORATOR</div>
+      <div class="cred-text">MS in Global Affairs<br>Energy & Environment Policy</div>
       <hr class="dash-hr">
       <div class="cred-hashtags">(to be added)</div>
       <hr class="dash-hr">
